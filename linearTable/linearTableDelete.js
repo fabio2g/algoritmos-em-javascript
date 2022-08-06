@@ -14,4 +14,4 @@ function deleteLinearTable(array, index) {
 }
 
 const scores = new Array(90, 70, 50, 80, 60, 85);
-console.log(deleteLinearTable(scores, 2));
+console.log(deleteLinearTable(scores, 2)); // [ 90, 70, 80, 60, 85 ]
